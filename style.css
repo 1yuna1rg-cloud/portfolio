@@ -10,7 +10,7 @@ html {
 #header {
   background: url(images/woman.png), url(images/header.png);
   background-repeat: no-repeat;
-  background-size: 15% , cover;
+  background-size: 15%, cover;
   background-position: 68% bottom, center center;
 }
 
@@ -20,6 +20,11 @@ html {
   min-height: 350px;
   margin: 0 auto;
   position: relative;
+}
+
+.header-nav {
+  position: relative;
+  z-index: 10;
 }
 
 .header-nav ul {
@@ -46,7 +51,7 @@ html {
 }
 
 .header-title h1 {
-  font-family: Noto Sans Japanese;
+  font-family:  "Noto Sans JP", sans-serif;
   font-size: 60px;
   font-weight: 600;
   padding-top: 100px;
@@ -93,13 +98,13 @@ section {
   margin-bottom: 50px;
 }
 
-.about-box{
+.about-box {
   max-width: 1280px;
 }
 
 .about-title {
   display: inline-block;
-  font-family: Zen Maru Gothic;
+  font-family: "Zen Maru Gothic", sans-serif;
   font-weight: 600;
   background-color: rgba(252, 66, 218, 0.556);
   font-size: 40px;
@@ -108,7 +113,7 @@ section {
 }
 
 .profile {
-  font-family: Zen Maru Gothic;
+  font-family: "Zen Maru Gothic", sans-serif;
   margin: 40px 70px 100px 70px;
 }
 
@@ -125,7 +130,7 @@ section {
 }
 
 .concept-title {
-  font-family: Zen Maru Gothic;
+  font-family: "Zen Maru Gothic", sans-serif;
   text-align: center;
   font-size: 30px;
   font-weight: 600;
@@ -139,7 +144,7 @@ section {
 }
 
 .fav-desc {
-  font-family: Zen Maru Gothic;
+  font-family: "Zen Maru Gothic", sans-serif;
   background-color: rgba(183, 116, 245, 0.242);
   width: 80%;
   border-radius: 10px;
@@ -155,7 +160,7 @@ section {
 }
 
 .message-title {
-  font-family: BIZ UDPGothic;
+  font-family: "BIZ UDPGothic", sans-serif;
   font-weight: bold;
   color: rgba(26, 12, 2, 0.743);
   font-size: 30px;
@@ -163,7 +168,7 @@ section {
 }
 
 .message-desc {
-  font-family: Zen Maru Gothic;
+  font-family: "Zen Maru Gothic", sans-serif;
   background-color: rgba(179, 255, 166, 0.261);
   width: 80%;
   border-radius: 10px;
@@ -238,7 +243,7 @@ h3 {
 .html-desc {
   background: rgb(255, 247, 232);
   font-family: Zen Maru Gothic;
-   margin-bottom: 20px;
+  margin-bottom: 20px;
   margin-right: 10px;
 }
 
@@ -253,7 +258,8 @@ h3 {
   margin: auto 10px;
 }
 
-.canva-home1 , .canva-home2 {
+.canva-home1,
+.canva-home2 {
   display: flex;
   align-items: flex-start;
   width: 95%;
@@ -261,17 +267,19 @@ h3 {
   margin: 30px auto;
 }
 
-.canva-img1 , .canva-img2 {
-   margin: 20px;
+.canva-img1,
+.canva-img2 {
+  margin: 20px;
 }
 
-.canva-img1 img , .canva-img2 img {
+.canva-img1 img,
+.canva-img2 img {
   max-width: 350px;
   height: auto;
 }
 
 .canva-desc {
-   background: rgb(255, 247, 232);
+  background: rgb(255, 247, 232);
   font-family: Zen Maru Gothic;
   margin-bottom: 20px;
   margin-right: 10px;
@@ -297,7 +305,7 @@ h3 {
 
 .skill-title {
   display: inline-block;
-   font-family: Zen Maru Gothic;
+  font-family: Zen Maru Gothic;
   font-weight: 600;
   background-color: rgba(66, 252, 88, 0.556);
   font-size: 40px;
@@ -369,260 +377,268 @@ footer p {
     margin: 0;
   }
 
- /* header =================================== */
-#header {
-  background-size: 13% , cover;
-  background-position: 68% bottom, center center;
-}
+  /* header =================================== */
+  #header {
+    background-size: 13%, cover;
+    background-position: 68% bottom, center center;
+  }
 
-.wrap {
-  width: 360px;
-  min-height: 200px;
-}
+  .wrap {
+    width: 360px;
+    min-height: 200px;
+  }
 
-.header-nav ul {
-  display: flex;
-  padding: 0;
-  margin-top: 20px;
-  margin-right: 5px;
-}
+  .header-nav ul {
+    display: flex;
+    padding: 0;
+    margin-top: 20px;
+    margin-right: 5px;
+  }
 
-.header-nav ul li {
-  font-size: 14px;
-  line-height: 1.0;
-  padding: 10px;
-}
+  .header-nav ul li {
+    font-size: 14px;
+    line-height: 1.0;
+    padding: 10px;
+  }
 
-.header-title h1 {
-  font-size: 30px;
-  padding-top: 70px;
-  padding-left: 0px;
-  padding-bottom: 30px;
-}
+  .header-title h1 {
+    font-size: 30px;
+    padding-top: 70px;
+    padding-left: 0px;
+    padding-bottom: 30px;
+  }
 
-.colourful {
-  font-size: 40px;
-}
+  .colourful {
+    font-size: 40px;
+  }
 
-.hope {
-  font-size: 40px;
-}
+  .hope {
+    font-size: 40px;
+  }
 
-.header-title p {
-  font-size: 20px;
-  text-align: left;
-  padding-left: 10px;
-}
+  .header-title p {
+    font-size: 20px;
+    text-align: left;
+    padding-left: 10px;
+  }
 
 
-/* section ================================= */
-section {
-   width: 100%;
+  /* section ================================= */
+  section {
+    width: 100%;
     margin: 0;
-}
+  }
 
 
-/* about ==================================== */
-.about-box{
-  width: 100%;
-  margin: auto 15px;
-}
+  /* about ==================================== */
+  .about-box {
+    width: 100%;
+    margin: auto 15px;
+  }
 
-.about-title {
-  font-size: 25px;
- text-align: center;
-  padding: 5px;
-}
+  .about-title {
+    font-size: 25px;
+    text-align: center;
+    padding: 5px;
+  }
 
-.profile {
-  margin: 5px 10px;
-}
+  .profile {
+    margin: 5px 10px;
+  }
 
-.profile-title {
-  font-size: 20px;
-}
+  .profile-title {
+    font-size: 20px;
+  }
 
-.profile-desc {
-  padding-right: 10px;
-  font-size: 14px;
-}
+  .profile-desc {
+    padding-right: 10px;
+    font-size: 14px;
+  }
 
-.concept-title {
-  font-size: 20px;
-}
+  .concept-title {
+    font-size: 20px;
+  }
 
-.fav img {
-  display: block;
-  width: 300px;
-  margin: 0 auto;
-}
+  .fav img {
+    display: block;
+    width: 300px;
+    margin: 0 auto;
+  }
 
-.fav-title {
-  font-size: 35px;
-  padding-top: 40px;
-  padding-bottom: 30px;
-}
+  .fav-title {
+    font-size: 35px;
+    padding-top: 40px;
+    padding-bottom: 30px;
+  }
 
-.fav-desc {
-  font-size: 10px;
-  line-height: 1.5;
-  padding: 10px;
-  margin: -50px auto 50px;
-}
+  .fav-desc {
+    font-size: 10px;
+    line-height: 1.5;
+    padding: 10px;
+    margin: -50px auto 50px;
+  }
 
-.message {
-  background-position: 30px top;
-}
+  .message {
+    background-position: 30px top;
+  }
 
-.message-title {
-  font-size: 20px;
-  padding-left: 20px;
-}
+  .message-title {
+    font-size: 20px;
+    padding-left: 20px;
+  }
 
-.message-desc {
-  font-size: 10px;
-  line-height: 1.5;
-  padding: 10px;
-  margin: 40px 5px 5px 40px;
-}
+  .message-desc {
+    font-size: 10px;
+    line-height: 1.5;
+    padding: 10px;
+    margin: 40px 5px 5px 40px;
+  }
 
-.colourful-2 {
-  font-size: 12px;
-  font-weight: 400;
-}
+  .colourful-2 {
+    font-size: 12px;
+    font-weight: 400;
+  }
 
-.hope-2 {
-  font-size: 12px;
-  font-weight: 400;
-}
-
-/* skill ==================================== */
-#skill {
-  background-size: 25%;
-}
-
-.skill-title {
-  font-size: 20px;
-}
-
-.skill-list-1 li {
-  font-size: 18px;
-  margin: 20px;
-}
-
-.skill-list-2 li {
-  font-size: 16px;
-  margin-left: 25px;
-  margin-bottom: 30px;
-}
-
-.other {
-  display: block;
-  width: 100%;
-  margin:0 auto;
-  padding: 10px;
-}
-
-.other-title {
-  font-size: 12px;
-  padding-bottom: 10px;
-}
-
-.other-list li {
-  font-size: 10px;
-  padding-left: 5px;
-}
-
-.other-desc {
-  font-size: 10px;
-  margin-top: 20px;
-  padding-left: 5px;
-}
+  .hope-2 {
+    font-size: 12px;
+    font-weight: 400;
+  }
 
 
-/* works ================================ */
-.works-title {
-  font-size: 20px;
-  margin-bottom: 15px;
-}
+  /* works ================================ */
+  .works-title {
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
 
-h3 {
-  font-size: 15px;
-  margin: 20px;
-  text-align: center;
-}
+  h3 {
+    font-size: 15px;
+    margin: 20px;
+    text-align: center;
+  }
 
-.html-img img {
-  width: 100%;
-  height: auto;
-}
+  .html-img img {
+    width: 100%;
+    height: auto;
+  }
 
-.html-desc {
+  .html-desc {
     margin: 10px;
+  }
+
+  .html-desc dt {
+    font-size: 12px;
+    margin: 10px auto 5px 10px;
+  }
+
+  .html-desc dd {
+    font-size: 10px;
+    line-height: 1.5;
+    padding-bottom: 10px;
+  }
+
+
+
+  .html-home,
+  .canva-home1,
+  .canva-home2 {
+    display: block;
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+  }
+
+  .html-img,
+  .canva-img1,
+  .canva-img2 {
+    width: 300px;
+    height: auto;
+    padding-top: 10px;
+    margin: 0 auto;
+  }
+
+  .canva-img1 img,
+  .canva-img2 img {
+    width: 100%;
+    height: auto;
+  }
+
+  .canva-title h4 {
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    padding: 20px 0 10px 10px;
+  }
+
+  .canva-desc {
+    background: rgb(255, 247, 232);
+    margin: 10px;
+  }
+
+  .canva-desc dt {
+    font-size: 14px;
+    padding-top: 10px;
+  }
+
+  .canva-desc dd {
+    font-size: 12px;
+    line-height: 1.5;
+    margin: auto 10px;
+    padding-bottom: 10px;
+  }
+
+  /* skill ==================================== */
+  #skill {
+    background-size: 25%;
+  }
+
+  .skill-title {
+    font-size: 20px;
+  }
+
+  .skill-list-1 li {
+    font-size: 18px;
+    margin: 20px;
+  }
+
+  .skill-list-2 li {
+    font-size: 16px;
+    margin-left: 25px;
+    margin-bottom: 30px;
+  }
+
+  .other {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    padding: 10px;
+  }
+
+  .other-title {
+    font-size: 12px;
+    padding-bottom: 10px;
+  }
+
+  .other-list li {
+    font-size: 10px;
+    padding-left: 5px;
+  }
+
+  .other-desc {
+    font-size: 10px;
+    margin-top: 20px;
+    padding-left: 5px;
+  }
+
+
+
+  /* footer ================================= */
+  footer {
+    background-size: 40%;
+    padding-top: 50px;
+    padding-bottom: 70px;
+  }
+
+  footer p {
+    font-size: 16px;
+  }
 }
-
-.html-desc dt {
-  font-size: 12px;
-  margin: 10px auto 5px 10px;
-}
-
-.html-desc dd {
-  font-size: 10px;
-  line-height: 1.5;
-  padding-bottom: 10px;
-}
-
-
-
-.html-home, .canva-home1 , .canva-home2 {
-  display: block;
-  margin-bottom: 30px;
-  padding-bottom: 20px;
-}
-
-.html-img, .canva-img1 , .canva-img2 {
-  width: 300px;
-  height: auto;
-  padding-top: 10px;
-  margin: 0 auto;
-}
-
-.canva-img1 img , .canva-img2 img {
-  width: 100%;
-  height: auto;
-}
-
-.canva-title h4 {
-  font-size: 20px;
-  font-weight: 600;
-  text-align: center;
-  padding: 20px 0 10px 10px;
-}
-
-.canva-desc {
-  background: rgb(255, 247, 232);
-  margin: 10px;
-}
-
-.canva-desc dt {
-  font-size: 14px;
-  padding-top: 10px;
-}
-
-.canva-desc dd {
-  font-size: 12px;
-  line-height: 1.5;
-  margin: auto 10px;
-  padding-bottom: 10px;
-}
-
-/* footer ================================= */
-footer {
-  background-size: 40%;
-  padding-top: 50px;
-  padding-bottom: 70px;
-}
-
-footer p {
-  font-size: 16px;
-}}
